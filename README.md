@@ -21,11 +21,10 @@ This notebook demonstrates the implementation and evaluation of several fundamen
 
 ## Contents
 
-- Data preprocessing and exploratory data analysis
+
 - Model implementation and training
 - Model evaluation using appropriate metrics
-- Comparison of model performances
-- Visualization of results
+
 
 ## How to Use
 
