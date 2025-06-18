@@ -1,34 +1,44 @@
-# Machine Learning Models Notebook
+# Machine Learning Models from Scratch
 
-This notebook demonstrates the implementation and evaluation of several fundamental machine learning algorithms on example datasets. It serves as a practical introduction to supervised learning techniques using Python.
+This repository contains implementations of fundamental machine learning algorithms **from scratch** using Python and NumPy, with no use of high-level ML libraries for the core logic.
+
+It’s designed as a practical introduction to supervised learning methods and showcases how these models work internally.
 
 ## Models Implemented
 
 - **Linear Regression**  
-  Used for predicting continuous target variables based on one or more features.
+  Predict continuous targets using least squares fitting.
 
 - **Logistic Regression**  
-  Applied to binary classification problems by modeling the probability of class membership.
+  Binary classification with sigmoid activation and cross-entropy loss.
 
 - **Decision Trees**  
-  A non-parametric model used for both classification and regression tasks that splits data based on feature values.
+  Recursive partitioning to split data based on feature values, for classification or regression.
 
 - **Random Forest**  
-  An ensemble method that builds multiple decision trees and aggregates their outputs to improve accuracy and control overfitting.
+  Ensemble of decision trees with bootstrap aggregation to improve accuracy and reduce overfitting.
 
 - **K-Nearest Neighbors (KNN)**  
-  A simple, instance-based classification or regression algorithm that predicts outputs based on the closest training examples in feature space.
+  Instance-based classification/regression using proximity in feature space.
 
-## Contents
+- **Neural Networks**  
+  Classic feedforward neural network with customizable activation functions (ReLU, Sigmoid), implemented with forward pass and backpropagation.
 
+## Features
 
-- Model implementation and training
-- Model evaluation using appropriate metrics
+- Modular, easy-to-understand code structure  
+- Step-by-step training and prediction methods  
+- Evaluation using common metrics and visualizations  
+- Ready-to-run example notebooks demonstrating each algorithm
 
+## Getting Started
 
-## How to Use
-
-1. Install the required dependencies:
+1. Clone the repository:
    ```bash
-   pip install numpy pandas scikit-learn matplotlib seaborn
+   git clone https://github.com/AlexanderDsouza/MLNotebookScratch.git
+   cd MLNotebookScratch
 
+
+2. Install dependencies:
+   ```bash
+   pip install numpy scikit-learn 
